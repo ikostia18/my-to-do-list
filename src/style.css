@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 350px;
+  margin: 30px auto;
+}
+
+.input {
+  width: 250px;
+}
+
+.button-add {
+  margin-left: 2px;
+  width: 90px;
+}
+
+.counter {
+  margin-top: 10px;
+}
+
+.list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.item-wrapper {
+  width: 350px;
+  display: flex;
+  margin-top: 2px;
+}
+
+input[type="checkbox"]:checked + label.item-label {
+  text-decoration: line-through;
+}
+
+.item-select {
+  margin-left: auto;
+}
+
+.item-label {
+  margin-left: 10px;
+}
+
+.item-label:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.edit-mode-wrapper {
+  margin: 2px;
+}
+
+.button-save {
+  margin-left: 2px;
+}
